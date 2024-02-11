@@ -1,2 +1,3 @@
 # PP-MERN
-This is repository to maintain assignment submissions for the MERN elective
+Here assignment submissions for the MERN elective will be updated
+
