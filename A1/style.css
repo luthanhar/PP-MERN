@@ -1,1 +1,172 @@
+html{
+font-family: 'Poppins';    
+}
 
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #F7F8F9;
+    min-height: 100vh;
+}
+.login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    gap:32px;
+    min-width: 520px;
+    /* min-height: 728px; */
+    width:27vw;
+    /* height:67vh; */
+    box-sizing: border-box;
+    padding: 40px 80px;
+    border-radius: 40px;
+    background-color:#fff;
+    box-shadow: 0px 12px 36px 0px #0000001A;
+}
+
+.form-head{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #191D23;
+    text-align: center;
+}
+
+.forms{
+    display: flex;
+    min-width: 100%;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.form-entry{
+
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #4B5768;
+    gap: 8px;
+
+
+}
+
+.form-entry label{
+    background-color: linear-gradient(0deg, #F7F8F9, #F7F8F9);
+
+}
+
+.form-entry input{
+
+    width: 100%;
+    min-height: 48px;
+    /* height:4.5vh; */
+    padding: 0px 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #E7EAEE;
+    letter-spacing: 2%;
+    color: #191D23;
+    background: linear-gradient(0deg, #E7EAEE, #E7EAEE);
+
+
+}
+
+.form-button{
+    display:flex;
+    width: 100%;
+    gap: 16px;
+    flex-direction: column;
+    align-items:center;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0em;    
+}
+
+.form-button #sign,#signGoogle{
+    width:100%;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.form-button button{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 16px 8px;
+    border:0px;
+    background:none;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0em;  
+    cursor:pointer;
+
+}
+
+.form-button #sign {
+    background: #10B981;
+    
+}
+#sign:has(>button:disabled ),#sign:has(>button[disabled]){
+    background:#6EE7B7;
+    cursor:not-allowed;
+
+    
+}
+
+.form-button #or{
+    width:100%;
+    font-weight: 500;
+    color: #64748B;
+    text-align: center;
+
+}
+.form-button #signGoogle{
+    gap: 8px;
+    background: #191D23;
+}
+
+#signGoogle img{
+width: 24px;
+height: 24px;
+}
+
+.footer{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color:#191D23;
+    font-weight: 600;
+    min-height: 36px;
+    text-align: center;
+}
+.footer span{
+    color:#10B981;
+    font-weight: 400;
+
+
+}
+
+@media (max-width:500px) or (max-height:730px){
+    .login{
+        min-width: 335px;
+        width:89vw;    
+        padding: 20px 40px;
+        border-radius: 20px;
+   
+    }
+    .form-head{
+        font-size: 24px;
+    }
+
+}
